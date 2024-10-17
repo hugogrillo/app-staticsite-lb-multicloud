@@ -1,4 +1,5 @@
-{terraform import azurerm_resource_group.rg /subscriptions/1fad06be-e4aa-4098-8875-9fb06e39fccc/resourceGroups/rg-staticsite-lb-multicloud-tf-hugoalves
+resource "azurerm_resource_group" "rg" {
+    name     = "rg-staticsite-lb-multicloud-tf-hugoalvesnew"
     location = "brazilsouth"
 }
 
